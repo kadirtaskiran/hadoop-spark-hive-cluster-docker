@@ -11,7 +11,7 @@ if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
 
-export JAVA_HOME=/usr/lib/jvm/jre-1.7.0-openjdk.x86_64
+export JAVA_HOME=/usr/lib/jvm/jre-1.8.0-openjdk.x86_64
 export HADOOP_INSTALL=/usr/local/hadoop
 export HADOOP_HOME=$HADOOP_INSTALL
 export PATH=$PATH:$HADOOP_INSTALL/bin
