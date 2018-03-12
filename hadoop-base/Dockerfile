@@ -54,7 +54,7 @@ RUN ln -s /usr/local/hive-2.3.2 /usr/local/hive
 ENV HIVE_HOME /usr/local/hive
 ENV PATH $PATH:$HIVE_HOME/bin
 RUN mv /usr/local/hive-env.sh /usr/local/hive/conf/hive-env.sh
-RUN mv /usr/local/hive-hwi-1.2.1.war /user/local/hive/lib/hive-hwi-1.2.1.war
+RUN mv /usr/local/hive-hwi-1.2.1.war /usr/local/hive/lib/hive-hwi-1.2.1.war
 # install mysql-java-connecter for hive
 RUN ln -s /usr/local/mysql-connector-java-5.1.6.jar /usr/local/hive/lib/mysql-connector-java-5.1.6.jar
 
