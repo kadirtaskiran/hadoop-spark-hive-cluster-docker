@@ -40,12 +40,12 @@ mysql
 Based on serf-dnsmasq.
 installed:
 ```
-java-1.7.0-openjdk
+java-1.8.0-openjdk
 scala-2.10.4
 openssh-server
 openssh-client
 vim
-Apache Hadoop 2.6.4
+Apache Hadoop 2.9.0
 Apache Hive 1.2.1
 Apache Spark 1.5.2
 ```
@@ -82,17 +82,17 @@ download hadoop, spark, hive bin files:
 ```
 cd hadoop-spark-hive-cluster-docker/hadoop-base/files
 
-curl -Lso hadoop-2.6.4.tar.gz https://archive.apache.org/dist/hadoop/core/hadoop-2.6.4/hadoop-2.6.4.tar.gz
-tar -zxvf hadoop-2.6.4.tar.gz
-rm hadoop-2.6.4.tar.gz
+curl -Lso hadoop-2.7.0.tar.gz https://archive.apache.org/dist/hadoop/core/hadoop-2.7.0/hadoop-2.7.0.tar.gz
+tar -zxvf hadoop-2.7.0.tar.gz
+rm hadoop-2.7.0.tar.gz
 
-curl -Lso spark-1.5.2-bin-hadoop2.6.tgz https://archive.apache.org/dist/spark/spark-1.5.2/spark-1.5.2-bin-hadoop2.6.tgz
-tar -zxvf  spark-1.5.2-bin-hadoop2.6.tgz
-rm spark-1.5.2-bin-hadoop2.6.tgz
+curl -Lso spark-2.2.1-bin-hadoop2.6.tgz https://archive.apache.org/dist/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
+tar -zxvf  spark-2.2.1-bin-hadoop2.7.tgz
+rm spark-2.2.1-bin-hadoop2.7.tgz
 
-curl -Lso apache-hive-1.2.1-bin.tar.gz https://archive.apache.org/dist/hive/hive-1.2.1/apache-hive-1.2.1-bin.tar.gz
-tar -zxvf apache-hive-1.2.1-bin.tar.gz
-rm apache-hive-1.2.1-bin.tar.gz
+curl -Lso apache-hive-2.3.2-bin.tar.gz https://archive.apache.org/dist/hive/hive-2.3.2/apache-hive-2.3.2-bin.tar.gz
+tar -zxvf apache-hive-2.3.2-bin.tar.gz
+rm apache-hive-2.3.2-bin.tar.gz
 
 
 ```
