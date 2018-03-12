@@ -1,4 +1,4 @@
-FROM joewoo/hadoop-base:1.0
+FROM cloudnesil/hadoop-base:1.1
 
 MAINTAINER JoeWoo <0wujian0@gmail.com>
 

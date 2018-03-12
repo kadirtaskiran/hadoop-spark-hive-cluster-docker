@@ -1,4 +1,4 @@
-FROM joewoo/serf-dnsmasq:1.0
+FROM cloudnesil/serf-dnsmasq:1.1
 
 MAINTAINER JoeWoo <0wujian0@gmail.com>
 

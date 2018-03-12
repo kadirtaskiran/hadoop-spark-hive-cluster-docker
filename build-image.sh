@@ -1,5 +1,5 @@
-docker build -t joewoo/serf-dnsmasq:1.0 serf-dnsmasq/
-docker build -t joewoo/hive-mysql:1.0 hive-mysql/
-docker build -t joewoo/hadoop-base:1.0 hadoop-base/
-docker build -t joewoo/hadoop-master:1.0 hadoop-master/
-docker build -t joewoo/hadoop-slave:1.0 hadoop-slave/
+docker build -t cloudnesil/serf-dnsmasq:1.1 serf-dnsmasq/
+docker build -t cloudnesil/hive-mysql:1.1 hive-mysql/
+docker build -t cloudnesil/hadoop-base:1.1 hadoop-base/
+docker build -t cloudnesil/hadoop-master:1.1 hadoop-master/
+docker build -t cloudnesil/hadoop-slave:1.1 hadoop-slave/
